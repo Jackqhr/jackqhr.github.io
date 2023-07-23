@@ -23,15 +23,15 @@
 <meta property="og:site_name" content="Jackqhr&#39;s Blog">
 <meta property="og:description" content="批量梯度下降  定义 梯度下降法(gradient descent)是一个最优化算法，常用于机器学习和人工智能当中递归逼近最小偏差模型。 在已知表达式的情况下可以代替二分三分，且效率较高。 在发展过程中衍生出了随机梯度下降算法和批量梯度下降算法，本文介绍批量梯度下降算法。  数学原理  推导过程 不妨令xix^ixi为第i组输入数据，h(xi)h(x^i)h(xi)为预测结果 h(xi)&#x3D;{θx">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://fastly.jsdelivr.net/gh/Jackqhr/photo-cloud/ml/P4.gif">
-<meta property="og:image" content="https://fastly.jsdelivr.net/gh/Jackqhr/photo-cloud/ml/P3.svg">
-<meta property="og:image" content="https://fastly.jsdelivr.net/gh/Jackqhr/photo-cloud/ml/P1.png">
-<meta property="og:image" content="https://fastly.jsdelivr.net/gh/Jackqhr/photo-cloud/ml/P2.svg">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/Jackqhr/photo-cloud/ml/P4.gif">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/Jackqhr/photo-cloud/ml/P3.svg">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/Jackqhr/photo-cloud/ml/P1.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/Jackqhr/photo-cloud/ml/P2.svg">
 <meta property="article:published_time" content="2023-07-20T08:02:00.000Z">
-<meta property="article:modified_time" content="2023-07-20T14:17:03.570Z">
+<meta property="article:modified_time" content="2023-07-23T11:14:51.929Z">
 <meta property="article:author" content="Jackqhr">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://fastly.jsdelivr.net/gh/Jackqhr/photo-cloud/ml/P4.gif">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/Jackqhr/photo-cloud/ml/P4.gif">
   
   
   
@@ -336,11 +336,11 @@ J&#x27;(\theta)=
 <blockquote>
 <p>迭代的过程如下图所示.</p>
 </blockquote>
-<p><img src="https://fastly.jsdelivr.net/gh/Jackqhr/photo-cloud/ml/P4.gif" srcset="/img/loading.gif" lazyload alt="" /></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Jackqhr/photo-cloud/ml/P4.gif" srcset="/img/loading.gif" lazyload alt="" /></p>
 <h3 id="细节理解"><a class="markdownIt-Anchor" href="#细节理解"></a> 细节理解</h3>
 <h4 id="理解均方误差最小二乘法"><a class="markdownIt-Anchor" href="#理解均方误差最小二乘法"></a> 理解均方误差（最小二乘法）</h4>
 <p><em><strong>图像方式理解</strong></em></p>
-<p><img src="https://fastly.jsdelivr.net/gh/Jackqhr/photo-cloud/ml/P3.svg" srcset="/img/loading.gif" lazyload alt="" /></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Jackqhr/photo-cloud/ml/P3.svg" srcset="/img/loading.gif" lazyload alt="" /></p>
 <blockquote>
 <p>数据如下表</p>
 </blockquote>
@@ -399,10 +399,10 @@ L^2
 盲人爬山闭着眼，要用脚试一下是往下的，那就走，一直这样操作，最终下山。当然这也就暴露出了其问题，无法一次性找到全局最优解。</p>
 <p>可以用图像来简单说明。</p>
 <p>这是损失函数（两个<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>θ</mi></mrow><annotation encoding="application/x-tex">\theta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">θ</span></span></span></span>）的大致图像，我们需要找到最低点时的<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>θ</mi><mi>j</mi></msub></mrow><annotation encoding="application/x-tex">\theta_j</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.980548em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">θ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:-0.02778em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.05724em;">j</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span>的值。</p>
-<p><img src="https://fastly.jsdelivr.net/gh/Jackqhr/photo-cloud/ml/P1.png" srcset="/img/loading.gif" lazyload alt="" /></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Jackqhr/photo-cloud/ml/P1.png" srcset="/img/loading.gif" lazyload alt="" /></p>
 <p>直接观察三维图像可能比较抽象，我们不妨先看二维，再拓展到三维。</p>
 <p>在图中横截一条线如下图</p>
-<p><img src="https://fastly.jsdelivr.net/gh/Jackqhr/photo-cloud/ml/P2.svg" srcset="/img/loading.gif" lazyload alt="" /></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Jackqhr/photo-cloud/ml/P2.svg" srcset="/img/loading.gif" lazyload alt="" /></p>
 <blockquote>
 <p>注：曲线为函数图像；直线为对应点的切线（即<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>J</mi><mo mathvariant="normal" lspace="0em" rspace="0em">′</mo></msup><mo stretchy="false">(</mo><msub><mi>θ</mi><mn>1</mn></msub><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">J&#x27;(\theta_1)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.001892em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.09618em;">J</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.751892em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">θ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.02778em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span>项的值）</p>
 </blockquote>
