@@ -1,0 +1,19 @@
+[project]
+name = "knowledge-base"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "jackqhr", email = "jackqiuhongrui@outlook.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "zensical>=0.0.66",
+]
+
+[project.scripts]
+knowledge-base = "knowledge_base:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
