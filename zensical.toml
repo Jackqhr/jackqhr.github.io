@@ -13,6 +13,15 @@ site_author = "Qiu Hongrui"
 nav = [
   { "Get started" = "index.md" },
   { "Markdown in 5min" = "markdown.md" },
+  { "Courses" = [
+    "courses/guide.md",
+    "courses/notes.md",
+  ] },
+  { "Projects" = [
+    { "ZJU 无人系统" = [
+      "projects/zju-unmanned-system/freshman.md",
+    ] },
+  ] },
 ]
 
 # extra_css = ["stylesheets/extra.css"]
