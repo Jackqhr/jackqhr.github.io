@@ -21,6 +21,9 @@ nav = [
     { "ZJU 无人系统" = [
       "projects/zju-unmanned-system/freshman.md",
     ] },
+    { "ZJU 大学生思想素养" = [
+      "projects/zju-ideology/intro.md",
+    ] },
   ] },
 ]
 
